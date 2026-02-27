@@ -1,0 +1,13 @@
+public class Main {
+    public static void main(String[] args) {
+
+        Teacher t1 = new Teacher("Isa", "Aliyev", "Male",
+                                 "Computer Science", "Java");
+
+        Teacher t2 = new Teacher("Isa", "Aliyev", "Male",
+                                 "Computer Science", "Java");
+
+        System.out.println(t1.toString());
+        System.out.println("Are equal? " + t1.equals(t2));
+    }
+}
